@@ -12,10 +12,10 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3  # Updated to the latest version compatible with Node.js 20
+      uses: actions/checkout@v3
 
     - name: Set up Node.js
-      uses: actions/setup-node@v3  # Updated to the latest version compatible with Node.js 20
+      uses: actions/setup-node@v3
       with:
         node-version: '20.x'
 
